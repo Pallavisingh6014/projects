@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: #F5F3EB;
+    color: #34463B;
+    min-height: 100vh;
+    padding: 45px 20px;
+}
+
+.container {
+    max-width: 540px;
+    margin: 30px auto;
+    background: #FFFEF9;
+    padding: 40px;
+    border-radius: 22px;
+    border: 1px solid #E8E9DC;
+    box-shadow: 0 12px 35px rgba(65, 83, 66, 0.08);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    text-align: center;
+    color: #425B49;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #718575;
+    text-align: center;
+    margin: 28px 0;
+}
+
+.subtitle {
+    text-align: center;
+    color: #929B8D;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #536B59;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 22px;
+    background: #F8F8F1;
+    border: 1px solid #E2E6D9;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    color: #34463B;
+}
+
+input:focus {
+    outline: none;
+    border-color: #91A990;
+    box-shadow: 0 0 0 3px rgba(145, 169, 144, 0.15);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #718B75;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #526F58;
+    transform: translateY(-2px);
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 22px;
+    color: #718B75;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #425B49;
+}
+
+.student {
+    background: #F7F8F0;
+    padding: 20px;
+    margin: 18px 0;
+    border-radius: 12px;
+    border-left: 4px solid #91A990;
+    line-height: 2;
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #E8E9DC;
+    margin: 18px 0;
+}
